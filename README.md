@@ -23,3 +23,8 @@ YIGA Health (YIGA = "Learn" in Kinyarwanda) gives young people a safe, anonymous
 ## Disclaimer
 
 YIGA Health provides health information only — not medical diagnosis. Users with urgent concerns are encouraged to visit a qualified healthcare provider.
+
+![homepage](image.png)
+![Chat](image-1.png)
+![Finding near clinic](image-2.png)
+![Learn](image-3.png)
