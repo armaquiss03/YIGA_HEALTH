@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #1a3d2b;
+  --color-sage: #3d6b4f;
+  --color-mint: #7ec8a0;
+  --color-cream: #f5f0e8;
+  --color-warm: #e8dcc8;
+  --color-clay: #c4724a;
+  --color-sun: #f0c060;
+  --color-text: #1a1a18;
+  --color-muted: #6b7560;
+  --color-white: #fdfcf8;
+
+  --font-serif: "Fraunces", serif;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-text font-sans selection:bg-mint/30;
+  }
+}
+
+.glass {
+  @apply bg-cream/90 backdrop-blur-xl border-b border-sage/15;
+}
+
+.btn-primary {
+  @apply bg-forest text-white px-8 py-3.5 rounded-full font-medium transition-all hover:bg-sage hover:-translate-y-0.5 hover:shadow-lg hover:shadow-forest/25 flex items-center gap-2;
+}
+
+.btn-secondary {
+  @apply border-2 border-forest text-forest px-8 py-3.5 rounded-full font-medium transition-all hover:bg-warm hover:-translate-y-0.5 flex items-center gap-2;
+}
+
+.card {
+  @apply bg-white rounded-[24px] p-6 border border-sage/10 transition-all hover:-translate-y-1 hover:shadow-xl hover:shadow-forest/5;
+}
